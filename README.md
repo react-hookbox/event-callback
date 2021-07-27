@@ -1,6 +1,6 @@
 # @react-hookbox/event-callback
 
-> Material Ui's useEventCallback with better type definitions.
+> Material UI's useEventCallback with better type definitions.
 
 [![NPM][npm-image]][npm-link]
 [![Minzipped Bundle Size][bundlephobia-image]][bundlephobia-link]
@@ -37,15 +37,13 @@ or in a `useEffect` which is placed after `useEventCallback`;
 ## Params
 
 * `fn`. This is a required function parameter.
-  The returned value will the same type.
+  The returned value will have the same type.
 
   > ***Note:*** The return value will be updated after an
   "effect-ive time".
 
   That means the returned value should be used as an event
-  callback or in an event callback. It can also be used in
-  some other useEffect but that useEffect should appear
-  after this hook.
+  callback or in an event callback.
 
 ## License
 

@@ -1,6 +1,6 @@
 {
   "name": "@react-hookbox/event-callback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Material Ui's useEventCallback with better type definitions.",
   "author": "hakobpogh",
   "license": "MIT",
@@ -28,6 +28,12 @@
   "peerDependencies": {
     "react": "^16.0.0"
   },
+  "keywords": [
+    "@react-hookbox",
+    "@react-hookbox/event-callback",
+    "event-callback-hook",
+    "useEventCallback"
+  ],
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
