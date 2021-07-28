@@ -12,7 +12,7 @@ npm install --save @react-hookbox/event-callback
 ```
 or
 ```bash
-yarn add hook-lib-template
+yarn add @react-hookbox/event-callback
 ```
 
 

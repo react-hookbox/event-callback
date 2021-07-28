@@ -1,7 +1,7 @@
 {
   "name": "@react-hookbox/event-callback",
-  "version": "1.0.1",
-  "description": "Material Ui's useEventCallback with better type definitions.",
+  "version": "1.0.2",
+  "description": "Material UI's useEventCallback with better type definitions.",
   "author": "hakobpogh",
   "license": "MIT",
   "repository": "react-hookbox/event-callback",
