@@ -15,7 +15,7 @@ export const useEventCallback: EventCallbackHook = <F extends Fn>(fn: F) => {
     callbackRef.current = fn;
   });
 
-  return useCallback((...args: Parameters<F>) => callbackRef.current(...(args as any)), []);
+  return useCallback((...args: Parameters<F>) => callbackRef.current(...args), []);
 };
 
 export default useEventCallback;
