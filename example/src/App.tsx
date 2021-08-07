@@ -13,7 +13,7 @@ const AppExample = () => {
     }
   });
 
-  logNum('should be the OLD value yet', false);
+  logNum(`RENDERING: expected ${num - 1} received`, false);
 
   return (
     <div>
@@ -21,7 +21,7 @@ const AppExample = () => {
 
       <button
         type="button"
-        onClick={() => logNum('should be the new value')}
+        onClick={() => logNum(`CLICK: expected ${num} received`)}
       >
         call callback
       </button>
